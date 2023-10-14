@@ -20,7 +20,7 @@ public class Day004{
         System.out.println("Setelah penurunan ukt");
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim );
-        System.out.println("ukt: " + ukt);
+        System.out.println("ukt: Rp " + ukt);
         System.out.println(sapaan);
     }
 }
