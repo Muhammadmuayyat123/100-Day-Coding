@@ -11,7 +11,7 @@ public class Day004{
         System.out.println("Sebelum penurunan ukt");
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
-        System.out.println("ukt: Rp" + ukt);
+        System.out.println("ukt: Rp " + ukt);
 
         
         ukt = ukt - 1000000.0; 
