@@ -11,7 +11,7 @@ public class Day005 {
         
         String nama_lengkap = nama_pertama + " " + nama_tengah + " " + nama_akhir;
 
-        // Menampilkan hasil penggabungan string
+        
         System.out.println("Nama Lengkap: " + nama_lengkap);
     }
 }
