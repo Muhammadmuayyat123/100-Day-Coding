@@ -12,8 +12,10 @@ public class Day009 {
         System.out.print("Masukkan tinggi Anda (m): ");
         tinggi = scanner.nextDouble();
 
+        
         bmi = berat / (tinggi * tinggi);
         
+
         if (bmi < 18.5) {
             kategori = "Kurang berat badan";
         } else if (bmi >= 18.5 && bmi < 24.9) {
@@ -23,6 +25,7 @@ public class Day009 {
         } else {
             kategori = "Obesitas";
         }
+
 
         System.out.println("Kategori Berat Badan (BMI): " + kategori);
     }
