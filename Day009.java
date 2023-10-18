@@ -6,16 +6,13 @@ public class Day009 {
         String kategori;
 
         Scanner scanner = new Scanner(System.in);
-
         
         System.out.print("Masukkan berat badan Anda (kg): ");
         berat = scanner.nextDouble();
         System.out.print("Masukkan tinggi Anda (m): ");
         tinggi = scanner.nextDouble();
 
-        
         bmi = berat / (tinggi * tinggi);
-
         
         if (bmi < 18.5) {
             kategori = "Kurang berat badan";
@@ -27,7 +24,6 @@ public class Day009 {
             kategori = "Obesitas";
         }
 
-        
         System.out.println("Kategori Berat Badan (BMI): " + kategori);
     }
 }
