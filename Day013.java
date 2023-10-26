@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day0013 {
+public class Day013 {
 
     public static void main(String[] args) {
         Scanner inputan = new Scanner(System.in);
