@@ -19,6 +19,5 @@ public class Day021 {
         Integer nilaiInteger5 = 200;
         Short nilaiShort = nilaiInteger5.shortValue();
         System.out.println("Konversi dari int ke short: " + nilaiShort);
-        
     }   
 }
