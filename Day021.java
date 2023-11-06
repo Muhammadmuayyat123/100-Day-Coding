@@ -4,25 +4,21 @@ public class Day021 {
         Double nilaiDouble1 = (double) nilaiInteger1;
         System.out.println("Konversi dari int ke double: " + nilaiDouble1);
 
-        double nilaiDouble2 = 3.14;
-        int nilaiInteger2 = (int) nilaiDouble2;
+        Double nilaiDouble2 = 3.14;
+        Integer nilaiInteger2 = nilaiDouble2.intValue();
         System.out.println("Konversi dari double ke int: " + nilaiInteger2);
 
-        int number = 123;
-        String strNumber = Integer.toString(number);
-        System.out.println("Konversi dari int ke String: " + strNumber);
+        Integer nilaiInteger3 = 123;
+        String stringNilai = Integer.toString(nilaiInteger3);
+        System.out.println("Konversi dari int ke String: " + stringNilai);
 
-        String strValue = "456";
-        int intValueFromString = Integer.parseInt(strValue);
-        System.out.println("Konversi dari String ke int: " + intValueFromString);
+        Integer nilaiInteger4 = 100;
+        Byte nilaiByte = nilaiInteger4.byteValue();
+        System.out.println("Konversi dari int ke byte: " + nilaiByte);
 
-        int intValueToByte = 100;
-        byte byteValue = (byte) intValueToByte;
-        System.out.println("Konversi dari int ke byte: " + byteValue);
-
-        int intValueToShort = 200;
-        short shortValue = (short) intValueToShort;
-        System.out.println("Konversi dari int ke short: " + shortValue);
+        Integer nilaiInteger5 = 200;
+        Short nilaiShort = nilaiInteger5.shortValue();
+        System.out.println("Konversi dari int ke short: " + nilaiShort);
         
     }   
 }
