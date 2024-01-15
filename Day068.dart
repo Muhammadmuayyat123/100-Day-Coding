@@ -6,4 +6,5 @@ void main(){
   print("Saya bernama $judul dan saya sedang $keterangan");
   print("tinggi saya = $tinggi");
   print("dengan berat badan = $beratBadan");
+  
 }
