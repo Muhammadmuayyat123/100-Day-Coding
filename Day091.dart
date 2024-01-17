@@ -17,5 +17,5 @@ void main() {
       (1 / 2) * panjangAlas * lebarAlas * tinggiSegitiga * tinggiPrisma;
 
   print(
-      "Volume prisma segitiga dengan tinggi $tinggiPrisma adalah: $volumePrisma");
+      "Volume prisma segitiga dengan tinggi $tinggiPrisma adalah : $volumePrisma");
 }
