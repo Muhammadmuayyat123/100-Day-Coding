@@ -4,7 +4,9 @@ void main() {
   stdout.write("Masukkan nilai Anda: ");
   double nilai = double.parse(stdin.readLineSync()!);
 
-  if (nilai >= 90 && nilai <= 100) {
+  if (nilai > 100) {
+    print("masukkan nilai anda dengan benar");
+  } else if (nilai >= 90 && nilai <= 100) {
     print("Nilai anda: $nilai, anda mendapatkan: A");
   } else if (nilai >= 80) {
     print("Nilai anda: $nilai, anda mendapatkan: B");
