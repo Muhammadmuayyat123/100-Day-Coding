@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\LENOVO\source\repos\Project1\Project1\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating code
+  3 of 5 functions (60.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\LENOVO\source\repos\Project1\x64\Release\Project1.exe
